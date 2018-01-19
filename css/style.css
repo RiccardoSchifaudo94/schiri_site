@@ -84,19 +84,44 @@ body {
 }
 .schiri_title_section{
 	opacity: 0;
-	/* display:none; */
 	margin: 5px auto 200px;
 }
 .schiri_content{
-	max-height: 960px;
-	height:100%;
-	margin-top: 100px;
+	height: auto;
+	font-family: Helvetica;
+	color: #fff;
+	font-weight: 300;
+}
+.schiri_content h1{
+	padding-top:100px;
+	margin-bottom: 30px;
+	font-size: 36px;
+}
+.schiri_content p{
+	padding:20px 0px 30px;
+	font-size: 21px;
+	line-height: 125%;
+}
+.schiri_content li {
+	  list-style-type:none;
+	  height:30px;
+}
+.schiri_content li img{
+	max-width:20px;
+	float:left;
+	margin-right:10px;
+}
+.schiri_bkg_1{
 	background-image: url(../img/riccardo.jpg),url("../img/riccardo2.jpg");
 	background-repeat: no-repeat;
-	background-position: center left,center right;
+	background-position: center left, center right;
 	background-size: contain;
 	-webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(#ffffff), to(#ffffff));
 	background-attachment: fixed;
+	max-height: 400px;
+	height: 100%;
+	margin-top: 100px;
+	padding: 150px 20px;
 }
 .schiri_footer{
 	background-color: #323334;
@@ -114,32 +139,6 @@ body {
 	border: 2px solid #b51249;
 	border-radius: 4px;
 	display: none;
-}
-
-.schiri_nav_prev,.schiri_nav_next,.schiri_nav_slide_counter{
-	float:left;
-}
-.schiri_nav_slide_counter{
-	margin:0 20px;
-	font-size: 27px;
-	font-family: Helvetica;
-	margin-top: 10px;
-	font-weight: 300;
-}
-.schiri_nav_prev,.schiri_nav_next{
-	background-color:#9C27B0;
-	border: 2px solid #6e157d;
-	padding: 7px 10px;
-	font-size:20px;
-	outline:none;
-	border-radius: 3px;
-}
-.schiri_nav_prev:hover,.schiri_nav_next:hover{
-	background-color:#E91E63;
-	border-color: #b51249;
-}
-.schiri_nav_prev img,.schiri_nav_next img{
-	max-width:30px;
 }
 .schiri_nav_disabled {
     background-color: #818181;
@@ -184,4 +183,35 @@ body {
     font-weight: 300;
     font-family: Helvetica;
     border: 2px solid #2196F3;
+}
+.schiri_about{
+	background-color: #09adf8;
+}
+.schiri_interests{
+	min-height: 500px;
+	height:auto;
+	padding:20px;
+	background-color: #CDDC39;
+}
+.schiri_dashboard_block_container{
+	display: inline-flex;
+	width:100%;
+	height:auto;
+}
+.schiri_dashboard_base{
+	border-right:1px solid #fff;
+	text-align:center;
+	font-size:24px;
+	min-height:400px;
+	padding-top:100px;
+}
+.schiri_dashboard_base_no_border{
+	border-right:0px!important;
+}
+.schiri_dashboard_base img{
+	margin-bottom:30px;
+}
+.schiri_dashboard_block_2{
+	width:50%;
+	height:inherit;
 }

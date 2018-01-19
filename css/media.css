@@ -1,0 +1,32 @@
+@media screen and (max-width:992px){
+	.schiri_container{
+		max-width: 600px;
+	}
+	.schiri_bkg_1{
+		background-size:cover;
+		background-image:url("../img/riccardo.jpg");
+		background-position:center center;
+		background-attachment:none;
+		max-height:670px;
+		padding:100px 20px;
+	}
+}
+@media screen and (max-width:768px){
+	.schiri_container{
+		max-width: 500px;
+	}
+	.schiri_bkg_1{
+		padding:50px 20px;
+	}
+	.schiri_dashboard_block_2{
+		width:100%;
+		border-right:0px;
+		border-bottom:1px solid #fff;
+		display:block;
+	}
+}
+@media screen and (max-width:468px){
+	.schiri_container{
+		max-width: 300px;
+	}
+}
