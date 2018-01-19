@@ -15,11 +15,17 @@
 	.schiri_container{
 		max-width: 500px;
 	}
+	.schiri_dashboard_block_container{
+		display:inline-block;
+	}
 	.schiri_bkg_1{
 		padding:50px 20px;
 	}
+	.schiri_dashboard_base{
+		max-height:300px;
+	}
 	.schiri_dashboard_block_2{
-		width:100%;
+		width: 100%;
 		border-right:0px;
 		border-bottom:1px solid #fff;
 		display:block;
@@ -28,5 +34,8 @@
 @media screen and (max-width:468px){
 	.schiri_container{
 		max-width: 300px;
+	}
+	.schiri_line_white{
+		display:none;
 	}
 }
