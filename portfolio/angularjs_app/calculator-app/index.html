@@ -1,0 +1,126 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/ng-tags-input/ng-tags-input.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="plugins/ng-tags-input/ng-tags-input.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">	
+		*{
+			font-family:Helvetica,sans-serif;
+		}
+		h1{
+			font-weight:300;
+			margin-left:10px;
+		}
+		input{
+			height:40px;
+			border:1px solid;
+			width:200px;
+			box-shadow:inset 3px 1px 15px 0px rgba(180,180,180,0.4);
+  			background-color: #fff;
+			margin-right:10px;
+			margin-left:10px;
+		}
+		button{
+			height:40px;
+			width:40px;
+			color: #000;
+		}
+		button,input{
+			font-size:20px;
+		}
+		p{
+			margin-left:10px;
+		}
+		span,.span{
+			    background-color: #ffffff;
+			    border: 1px solid #dcd3d3;
+			    min-width: 100px;
+			    width: auto;
+			    font-family: Helvetica;
+			    font-size: 20px;
+			    font-weight: 300;
+			    padding: 6px 20px;
+			    color:#000;
+		}
+		span{
+			padding:6px 15px;
+		}
+		.span {
+			width: 253px;
+			margin-left: 20px;
+			text-align: right;
+			padding-right: 14px;
+		}
+	</style>
+</head>
+<body ng-app="calculatorApp">
+	<div class="header">
+		<div class="container">
+			<h1><i class="fa fa-calculator"></i> Calculator </h1>
+		</div>	
+	</div>
+	<div ng-controller="CalcCtrl as ctrl">
+		<div class="container">
+			<div class="col-md-4 col-sm-12 col-xs-12"></div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+					<h1>Calculator App</h1>
+					<p>
+						<input type="text" ng-model="ctrl.input1">
+						<span ng-bind="ctrl.selectedOperation"></span>
+					</p>
+					<p>				
+						<input type="text" ng-model="ctrl.input2" class="secondInput">
+						<button ng-click="ctrl.computeResult()" class="save" style="font-weight:600;float:none;">=</button>
+					</p>	
+					<p>
+						<div class="span" ng-bind="ctrl.result"></div>
+					</p>
+					<div>
+					<hr>
+					<p>
+						<button ng-click="ctrl.buttonClicked('+');">+</button>
+						<button ng-click="ctrl.buttonClicked('-');">-</button>
+						<button ng-click="ctrl.buttonClicked('x');">x</button>
+						<button ng-click="ctrl.buttonClicked('/');">/</button>
+					</p>
+					<p>	
+						<button ng-click="ctrl.buttonClicked('%');">%</button>
+						<button ng-click="ctrl.buttonClicked('!');">!</button>
+						<button ng-click="ctrl.buttonClicked('1/x');">1/x</button>
+						<button ng-click="ctrl.buttonClicked('^2');">^2</button>	
+					</p>	
+				</div>
+			</div>	
+			<div class="col-md-4 col-sm-12 col-xs-12"></div>
+		</div>		
+	</div>	
+	<div class="footer">
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h1><i class="fa fa-calculator"></i> Calculator App</h1>
+					<hr>
+					<p>
+						Calculator App is a webtool which let you<br/> to do mathematics operations
+					</p>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h4>Social</h4>
+					<p class="social_block">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-linkedin"></i>
+						<i class="fa fa-pinterest"></i>
+						<i class="fa fa-tumblr"></i>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+<script type="text/javascript" src="../angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</html>

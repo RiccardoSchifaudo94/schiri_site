@@ -1,0 +1,92 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/ng-tags-input/ng-tags-input.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="plugins/ng-tags-input/ng-tags-input.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">	
+		.register_contact{
+			height:300px;
+			overflow-y:scroll;
+			border:1px solid #3f51b5;
+			padding:10px 5px;
+		}
+		.media{
+			margin-top:0px;
+		}
+	</style>
+</head>
+<body ng-app="todoApp">
+	<div class="header" ng-controller="HeaderController as head">
+		<div class="container">
+			<h1><i class="fa fa-check-square-o"></i> {{head.appTitle}}</h1>
+		</div>	
+	</div>
+	<div  ng-controller="ContactController as ctrl">
+		<div class="container">
+				
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<label><i class="fa fa-phone"></i> Contact List</label>
+						<ul class="register_contact">
+							<li ng-repeat="contact in ctrl.contacts" ng-click="ctrl.selectContact($index)">
+								<i class="fa fa-user"></i>
+								{{contact.name.first + " "+ contact.name.last}}
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12" ng-show="ctrl.state">
+						<label><i class="fa fa-users"></i> Contact Details</label>
+						<div class="media">
+							  <div class="media-body">
+							  	<label><i class="fa fa-user"></i>  User details</label>
+							    <h3 class="media-heading">
+							    		{{ctrl.selectedContact.name.first +" "+ctrl.selectedContact.name.last}}
+							    </h3>
+							    <label><i class="fa fa-map-signs"></i>  Address details</label>
+							    <h4>{{ctrl.selectedContact.location.street}}</h4>
+							    <h4>{{ctrl.selectedContact.location.city}}</h4>
+							    <button class="save pull-left"><i class="fa fa-phone"></i> Call</button>
+							    <button class="delete pull-left" ng-click="ctrl.closeDetail()"><i class="fa fa-times"></i> Close</button>
+							  </div>
+							  <div class="media-right">
+							    <img ng-src="{{ctrl.selectedContact.picture.medium}}" class="media-object" style="width:120px">
+							  </div>
+						</div>
+					</div>	
+				</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container" ng-controller="FooterController as foot">	
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h1><i class="fa fa-phone"></i> {{foot.appTitle}}</h1>
+					<hr>
+					<p>
+						{{foot.textFooter}}
+					</p>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h4>Social</h4>
+					<p class="social_block">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-linkedin"></i>
+						<i class="fa fa-pinterest"></i>
+						<i class="fa fa-tumblr"></i>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+<script type="text/javascript" src="../angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="plugins/ng-tags-input/ng-tags-input.js"></script>
+
+</html>

@@ -1,0 +1,27 @@
+@keyframes sunrise {
+    0%   {bottom: 0%; left: 5%; background: red;}
+	10%  {bottom: 20%; left: 15%; background: lightred;}
+    15%  {bottom: 25%; left: 20%; background: orange;}
+	20%  {bottom: 30%; left: 25%; background: orange;}
+	25%  {bottom: 35%; left: 30%; background: lightorange;}
+	35%  {bottom: 40%; left: 35%; background: lightorange;}
+	40%  {bottom: 45%; left: 45%; background: yellow;}
+    50%  {bottom: 40%; left: 50%; background: yellow;}
+	60%  {bottom: 35%; left:55%; background: yellow;}
+    75%  {bottom: 30%; left:60%; background: orange;}
+	85%  {bottom: 25%; left:65%; background: red;}
+	90%  {bottom: 20%; left:70%; background: red;}
+	95%  {bottom: 15%; left:75%; background: red;}
+    100% {bottom: 0%; left:80%;}
+}
+@keyframes sky-color{
+	0%  {background-color: #777777;}
+    15%  {background-color: #9db8b8;}
+	25%  {background-color: #6ed5d5;}
+	40%  {background-color: #03A9F4;}
+    50%  {background-color: #2196f3;}
+	60%  {background-color: #03A9F4;}
+    75%  {background-color: #6ed5d5;}
+	85%  {background-color: #9db8b8;}
+    100%{background-color: #777777;}
+}

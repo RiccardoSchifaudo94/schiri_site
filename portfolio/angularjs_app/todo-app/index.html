@@ -1,0 +1,76 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/ng-tags-input/ng-tags-input.bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="plugins/ng-tags-input/ng-tags-input.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">	
+		
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<h1><i class="fa fa-check-square-o"></i> Todo App</h1>
+		</div>	
+	</div>
+	<div ng-app="todoApp" ng-controller="todoController as ctrl">
+		<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<div>
+							<label>Add New Todo</label>
+							<br/>
+							<input type="text" ng-model="ctrl.newTodo">
+							<button class="add" ng-click="ctrl.addNewTodo()"><i class="fa fa-plus"></i></button>
+						</div>	
+						<hr>
+						<button class="edit" ng-click="ctrl.editMode()" ng-bind="ctrl.nameBtnEdit"></button>
+						<hr>
+						<label>Todo: </label>
+						<ul>	
+							<li ng-repeat="todo in ctrl.todos"><div ng-hide="ctrl.status">{{todo}}</div>
+								<input ng-show="ctrl.status" type="text" value="{{todo}}">
+								<button class="delete" ng-click="ctrl.deleteTodo($index)"><i class="fa fa-times"></i></button>
+								<button class="save" ng-click="ctrl.saveTodo($index)"><i class="fa fa-check"></i></button>
+							</li>
+							<li ng-show="ctrl.check_item"><div>No task to do</div></li>
+						</ul>	
+					</div>
+				</div>
+		
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">	
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h1><i class="fa fa-check-square-o"></i> Todo App</h1>
+					<hr>
+					<p>
+						Todo App is a webtool which let you<br/> to manage your tasks <br/>to do during the day.
+					</p>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<h4>Social</h4>
+					<p class="social_block">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-linkedin"></i>
+						<i class="fa fa-pinterest"></i>
+						<i class="fa fa-tumblr"></i>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+<script type="text/javascript" src="../angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="plugins/ng-tags-input/ng-tags-input.js"></script>
+
+</html>
