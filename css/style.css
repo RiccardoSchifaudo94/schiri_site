@@ -1,0 +1,171 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:"Helvetica",sans-serif;
+}
+body {
+    background-color: #dedede;
+}
+.schiri_container{
+	max-width:960px;
+	width:100%;
+	margin:0 auto;
+}
+.schiri_header{
+	min-height:100px;
+	background-color: #3F51B5;
+	width:100%;
+	color:#fff;
+	position: fixed;
+	top: 0px;
+	border-bottom: 2px solid #0d338a;
+	box-shadow: 0px 0px 10px #818181;
+}
+.schiri_sub_header{
+	background-color: #03A9F4;
+	height:auto;
+	width:100%;
+	padding: 0px 0 20px;
+	display:none;
+	position:absolute;
+	top:100px;
+}
+.schiri_sub_header ul{
+	list-style-type:none;
+	text-align: center;
+	margin-top:20px;
+}
+.schiri_sub_header li:first-child{
+	border-top: 1px solid #ffffff;
+}
+.schiri_sub_header li{
+	border-bottom: 1px solid #ffffff;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	transition:0.4s;
+}
+.schiri_sub_header li:hover {
+    background-color: #3F51B5;
+    padding-left:60px;
+}
+.schiri_sub_header li img{
+	max-width:30px;
+	float:left;
+}
+.schiri_sub_header li a{
+	color:#fff;
+	text-decoration:none;
+}
+.schiri_sub_header li a div{
+	margin-top:10px;
+}
+.schiri_brand{
+	font-size:30px;
+	color:#fff;
+	float:left;
+	padding-top:30px;
+	margin-left:20px;
+}
+.schiri_menu{
+	float:right;
+}
+.schiri_menu img{
+	max-width: 40px;
+	margin-top: 25px;
+	padding: 8px;
+	border-radius: 4px;
+	margin-right:20px;
+}
+.schiri_menu_active{
+	background-color: #03A9F4;
+	border: 2px solid #2196F3;
+}
+.schiri_title_section{
+	display:none;
+	margin: 5px auto;
+}
+.schiri_content{
+	max-height: 960px;
+	height:100%;
+	margin-top: 120px;
+}
+.schiri_footer{
+	background-color: #323334;
+	color:#fff;
+	height: 80px;
+	width:100%;
+}
+.schiri_navigation{
+	float:right;
+	margin-top: 10px;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	margin-right: 20px;
+	background-color: #E91E63;
+	border: 2px solid #b51249;
+	border-radius: 4px;
+	display: none;
+}
+
+.schiri_nav_prev,.schiri_nav_next,.schiri_nav_slide_counter{
+	float:left;
+}
+.schiri_nav_slide_counter{
+	margin:0 20px;
+	font-size: 27px;
+	font-family: Helvetica;
+	margin-top: 10px;
+	font-weight: 300;
+}
+.schiri_nav_prev,.schiri_nav_next{
+	background-color:#9C27B0;
+	border: 2px solid #6e157d;
+	padding: 7px 10px;
+	font-size:20px;
+	outline:none;
+	border-radius: 3px;
+}
+.schiri_nav_prev:hover,.schiri_nav_next:hover{
+	background-color:#E91E63;
+	border-color: #b51249;
+}
+.schiri_nav_prev img,.schiri_nav_next img{
+	max-width:30px;
+}
+.schiri_nav_disabled {
+    background-color: #818181;
+    border: 2px solid #323232;
+}
+.schiri_slide_container{
+	border: 0px;
+	width:100%;
+	max-width: 930px;
+	max-height: 400px;
+	height:100%;
+	background-color: #d6d6d6;
+	padding:0px;
+	margin: 0 0 0 0;
+	border-radius: 3px;
+	display:none;
+}
+.schiri_welcome_box {
+    text-align: center;
+    padding-top: 200px;
+    font-family: Arial;
+}
+.schiri_welcome_box h3{
+	margin-bottom:20px;
+	font-size:30px;
+}
+.schiri_btn {
+    background-color: #03A9F4;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: Helvetica;
+    border: 2px solid #2196F3;
+}
