@@ -35,6 +35,9 @@
 	.schiri_container{
 		max-width: 300px;
 	}
+	.schiri_container h1 img {
+		display:block;
+	}
 	.schiri_line_white{
 		display:none;
 	}
