@@ -13,7 +13,7 @@ body {
 }
 .schiri_header{
 	min-height:100px;
-	background-color: #3F51B5;
+	background-color: #0969b5;
 	width:100%;
 	color:#fff;
 	position: fixed;
@@ -38,17 +38,17 @@ body {
 	margin-top:20px;
 }
 .schiri_sub_header li:first-child{
-	border-top: 2px solid #2196F3;
+	border-top: 2px solid #ffffff;
 }
 .schiri_sub_header li{
-	border-bottom: 2px solid #2196F3;
+	border-bottom: 2px solid #ffffff;
 	padding-top: 15px;
 	padding-bottom: 20px;
 	padding-left: 40px;
 	transition:0.4s;
 }
 .schiri_sub_header li:hover {
-    background-color: #3F51B5;
+    background-color: #0969b5;
     padding-left:60px;
 }
 .schiri_sub_header li img{
@@ -112,6 +112,8 @@ body {
 	padding:20px 0px 30px;
 	font-size: 21px;
 	line-height: 125%;
+	font-weight: 300;
+	font-family: "Arial";
 }
 .schiri_content li {
 	  list-style-type:none;
@@ -127,9 +129,20 @@ body {
 	background-size: cover;
 	-webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(#ffffff), to(#ffffff));
 	background-attachment: fixed;
-	height: 100%;
+	background-position: center;
+	height: calc(56vh - 100px);
 	max-height: 400px;
 	margin-top: 100px;
+	padding: 150px 20px;
+	background-repeat: no-repeat;
+}
+.schiri_bkg_2{
+	background-image: url(../img/job_experience.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	height:100%;
+	max-height: 400px;
 	padding: 150px 20px;
 	background-repeat: no-repeat;
 }
@@ -214,11 +227,12 @@ body {
 	min-height: 500px;
 	height:auto;
 	padding:20px;
-	background-color: #CDDC39;
-	border-top: 3px solid #8BC34A;
+	background-color: #460a75;
+	border-top: 3px solid #381454;
 }
 .schiri_skills{
-	background-color: #8bc34a;
+	background-color: #0969b5;
+	border-top: 2px solid #1264a5;
 }
 .schiri_dashboard_block_container{
 	display: inline-flex;
