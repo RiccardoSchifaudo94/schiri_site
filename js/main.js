@@ -10,7 +10,7 @@ $(document).ready(function(){
 		$('html, body').animate({
 			scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top-100
 		}, 500);
-
+		$(".schiri_menu img").removeClass("schiri_menu_active");
 		return false;
 	});
 });

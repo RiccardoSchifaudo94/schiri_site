@@ -13,13 +13,13 @@ body {
 }
 .schiri_header{
 	min-height:100px;
-	background-color: #0969b5;
+	background-color: #4b5fcd;
 	width:100%;
 	color:#fff;
 	position: fixed;
 	top: 0px;
-	border-bottom: 2px solid #0d338a;
-	box-shadow: 0px 0px 10px #818181;
+	border-bottom: 2px solid #3F51B5;
+	/* box-shadow: 2px 2px 5px #c5c5c5; */
 	z-index: 9999;
 }
 .schiri_sub_header{
@@ -79,10 +79,12 @@ body {
 	padding: 8px;
 	border-radius: 4px;
 	margin-right:20px;
+	border: 2px solid #0983e4;
+	background-color: #03a9f4;
 }
 .schiri_menu_active{
 	background-color: #03A9F4;
-	border: 2px solid #2196F3;
+	border: 2px solid #0d338a!important;
 }
 .schiri_title_section{
 	opacity: 0;
@@ -217,7 +219,7 @@ body {
     font-weight: 300;
     font-family: Helvetica;
     text-transform: capitalize;
-    border: 2px solid #2196F3;
+    border: 2px solid #0983e4;
 }
 .schiri_about{
 	background-color: #09adf8;
@@ -227,8 +229,8 @@ body {
 	min-height: 500px;
 	height:auto;
 	padding:20px;
-	background-color: #460a75;
-	border-top: 3px solid #381454;
+	background-color: #2196F3;
+	border-top: 3px solid #0971c4;
 }
 .schiri_skills{
 	background-color: #0969b5;

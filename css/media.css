@@ -4,7 +4,7 @@
 	}
 	.schiri_bkg_1{
 		background-size:cover;
-		background-image:url("../img/riccardo.jpg");
+		background-image: url("../img/riccardo.jpg");
 		background-position:center center;
 		background-attachment:none;
 		max-height:670px;
