@@ -12,6 +12,12 @@
 	}
 }
 @media screen and (max-width:768px){
+	.schiri_welcome_box h1{
+		padding-top:0px;
+	}
+	.schiri_welcome_box h4{
+		font-size:24px;
+	}
 	.schiri_container{
 		max-width: 500px;
 	}
