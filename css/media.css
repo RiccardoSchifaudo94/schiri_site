@@ -3,6 +3,13 @@
 	.schiri_container{
 		max-width: 600px;
 	}
+	.schiri_content h1 {
+    	padding-top: 50px;
+    }	
+    .schiri_welcome_box h1{
+    	padding-top:0px;
+    	margin-bottom:0px;
+    }
 	.schiri_bkg_1{
 		background-size:cover;
 		background-image: url("../img/riccardo.jpg");
@@ -62,18 +69,17 @@
 		padding-bottom:15px;
 	}
 	.schiri_welcome_box {
-		margin-top:0px;
-		text-align:center;
-		font-family:Arial;
-		padding:10px 0px 20px;
-		border:2px solid #3F51B5;
-		border-radius:3px;
-		background-color:rgba(255,255,255,0.5);
+		margin-top: 0px;
+	    text-align: center;
+	    font-family: Arial;
+	    padding: 10px 0px 20px;
+	    border-radius: 3px;
+	    background-color: rgba(0, 0, 0, 0.7);
 	}
 	.schiri_welcome_box h1{
 		max-width:300px;
-		color:#3f51b5;
-		margin-bottom: 0px;
+		color: #ffffff;
+    	margin-bottom: 0px;
 	}
 	.schiri_container h1 img{
 		max-width:25px;
@@ -83,14 +89,16 @@
 		padding:40px;
 	}
 	.schiri_content h1{
-		font-size:24px;
-		padding-top:20px;
-		max-width: 300px;
+		font-size: 24px;
+	    padding-top: 20px;
+	    max-width: 300px;
+	    padding-bottom: 5px;
 	}
 	.schiri_welcome_box h4{
-		font-size:16px;
-		font-weight:400;
-		color:#0983e4;
+		font-size: 16px;
+	    font-weight: 400;
+	    color: #03A9F4;
+	    margin-top: 0px;
 	}
 	.schiri_content p{
 		font-size:16px;
