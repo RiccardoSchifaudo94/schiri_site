@@ -1,11 +1,11 @@
 .schiri_modal{
 	height: 100%;
     width: 100%;
-    background-color:rgba(0,0,0,0.9);
+    background-color:rgba(255,255,255,0.9);
     position: fixed;
     z-index: 99999999;
     top: 0px;
-    color: #fff;
+    color: #000;
     display: none;
 }
 .schiri_modal_header {

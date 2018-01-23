@@ -248,8 +248,8 @@ body {
 	border-right:1px solid #fff;
 	text-align:center;
 	font-size:24px;
-	min-height: 400px;
-	padding-top:100px;
+	min-height: 250px;
+    padding-top: 50px;
 }
 .schiri_dashboard_base_no_border{
 	border-right:0px!important;
@@ -267,4 +267,25 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px 20px;
     height: auto;
+}
+.schiri_timeline {
+    border-top: 2px solid #2b3885;
+    min-height: 100px;
+    margin-top: 30px;
+}
+
+.schiri_circle_icon {
+    background-color: #0983e4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    top: -28px;
+    float:left;
+    margin-right:100px;
+}
+.schiri_circle_icon img{
+	max-width:30px;
+	margin-top:10px;
 }
