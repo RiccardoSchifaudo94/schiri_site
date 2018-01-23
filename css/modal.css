@@ -32,3 +32,12 @@
 .schiri_btn_modal_close img {
     max-width: 40px;
 }
+.schiri_modal_header:after {
+    content: "";
+    min-height: 100px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border-bottom: 2px dashed #3F51B5;
+    z-index: -1;
+}

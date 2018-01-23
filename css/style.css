@@ -3,6 +3,22 @@
 	margin:0px;
 	font-family:"Helvetica",sans-serif;
 }
+::-webkit-scrollbar
+{
+  width: 10px;  /* for vertical scrollbars */
+  height: 10px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(255,255,255,1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background:rgba(43, 56, 133,1);
+  width:5px;
+}
 body {
     background-color: #dedede;
 }

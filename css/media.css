@@ -133,4 +133,7 @@
 	.schiri_btn_modal_close img{
 		max-width:25px;
 	}
+	.schiri_modal_header:after{
+		min-height:80px;
+	}
 }
