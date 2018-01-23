@@ -1,4 +1,5 @@
 @media screen and (max-width:992px){
+	/* SITE  */ 
 	.schiri_container{
 		max-width: 600px;
 	}
@@ -12,6 +13,7 @@
 	}
 }
 @media screen and (max-width:768px){
+	/* SITE  */ 
 	.schiri_welcome_box h1{
 		padding-top:0px;
 	}
@@ -38,6 +40,7 @@
 	}
 }
 @media screen and (max-width:468px){
+	/* SITE  */ 
 	.schiri_header{
 		min-height:80px;
 	}
@@ -104,5 +107,21 @@
 	.schiri_btn{
 		padding: 8px 20px;
 		font-size: 18px;
+		margin-top:5px;
+	}
+	/* MODAL */
+	.schiri_modal_header{
+		min-height:80px;
+	}
+	.schiri_modal_header h1{
+		font-size: 20px;
+   		max-width: 300px;
+	}
+	.schiri_btn_modal_close{
+		float:right;
+		margin-right:0px;
+	}
+	.schiri_btn_modal_close img{
+		max-width:25px;
 	}
 }

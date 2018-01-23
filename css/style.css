@@ -13,14 +13,14 @@ body {
 }
 .schiri_header{
 	min-height:100px;
-	background-color: #4b5fcd;
+	background-color: #3f51b5;
 	width:100%;
 	color:#fff;
 	position: fixed;
 	top: 0px;
-	border-bottom: 2px solid #3F51B5;
-	/* box-shadow: 2px 2px 5px #c5c5c5; */
-	z-index: 9999;
+	border-bottom: 2px solid #2b3885;
+	/*box-shadow: 2px 2px 5px #c5c5c5; */
+	z-index:1;
 }
 .schiri_sub_header{
 	background-color: #03A9F4;
@@ -38,10 +38,10 @@ body {
 	margin-top:20px;
 }
 .schiri_sub_header li:first-child{
-	border-top: 2px solid #ffffff;
+	border-top: 1px solid #ffffff;
 }
 .schiri_sub_header li{
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 	padding-top: 15px;
 	padding-bottom: 20px;
 	padding-left: 40px;
@@ -115,7 +115,7 @@ body {
 	font-size: 21px;
 	line-height: 125%;
 	font-weight: 300;
-	font-family: "Arial";
+	font-family: "Helvetica";
 }
 .schiri_content li {
 	  list-style-type:none;
@@ -131,7 +131,7 @@ body {
 	background-size: cover;
 	-webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(#ffffff), to(#ffffff));
 	background-attachment: fixed;
-	background-position: center;
+	background-position: bottom right;
 	height: calc(56vh - 100px);
 	max-height: 400px;
 	margin-top: 100px;
@@ -140,13 +140,12 @@ body {
 }
 .schiri_bkg_2{
 	background-image: url(../img/job_experience.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	height:100%;
-	max-height: 400px;
-	padding: 150px 20px;
-	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 240px;
+    padding: 70px 20px 60px;
+    background-repeat: no-repeat;
 }
 .schiri_footer{
 	background-color: #323334;
@@ -189,7 +188,7 @@ body {
 .schiri_welcome_box {
     text-align: center;
     font-family: Arial;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 30px 20px;
 }
 .schiri_welcome_box h1 {
@@ -220,6 +219,10 @@ body {
     font-family: Helvetica;
     text-transform: capitalize;
     border: 2px solid #0983e4;
+}
+.schiri_btn_reverse{
+	background-color: #3F51B5;
+    border: 2px solid #2b3885;
 }
 .schiri_about{
 	background-color: #09adf8;
@@ -257,4 +260,11 @@ body {
 .schiri_dashboard_block_2{
 	width:50%;
 	height:inherit;
+}
+.schiri_box_section{
+	text-align: left;
+    font-family: Helvetica;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 20px;
+    height: auto;
 }
