@@ -46,6 +46,11 @@
 		border-bottom:1px solid #fff;
 		display:block;
 	}
+	.schiri_dashboard_block_4{
+		width:50%;
+		display:block;
+		float:left;
+	}
 }
 @media screen and (max-width:468px){
 	/* SITE  */ 
@@ -136,5 +141,9 @@
 	}
 	.schiri_modal_header:after{
 		min-height:80px;
+	}
+	.schiri_dashboard_block_4{
+		display:block;
+		width:100%;
 	}
 }

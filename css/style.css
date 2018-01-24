@@ -255,8 +255,17 @@ body {
 	border-top: 3px solid #0971c4;
 }
 .schiri_skills{
-	background-color: #0969b5;
+	background-color: #0983e4;
 	border-top: 2px solid #1264a5;
+}
+.schiri_portfolio{
+	background-color: #09adf8;
+	border-top: 2px solid #1264a5;
+	min-height:300px;
+	margin-bottom:0px;
+}
+.schiri_content.schiri_portfolio h1 img {
+    margin-top: 5px;
 }
 .schiri_dashboard_block_container{
 	display: inline-flex;
@@ -278,6 +287,10 @@ body {
 }
 .schiri_dashboard_block_2{
 	width:50%;
+	height:inherit;
+}
+.schiri_dashboard_block_4{
+	width:25%;
 	height:inherit;
 }
 .schiri_box_section{
