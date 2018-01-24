@@ -288,20 +288,48 @@ body {
     border-top: 2px solid #2b3885;
     min-height: 100px;
     margin-top: 30px;
+    height: 300px;
 }
 
 .schiri_circle_icon {
-    background-color: #0983e4;
+ 	background-color: #0983e4;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     text-align: center;
     position: relative;
     top: -28px;
-    float:left;
-    margin-right:100px;
+    margin: 0 auto;
 }
 .schiri_circle_icon img{
 	max-width:30px;
 	margin-top:10px;
+}
+.schiri_timeline_block {
+    background-color: #fff;
+    width: 200px;
+    max-height:200px;
+    height:100%;
+    text-align: center;
+    padding: 10px 5px;
+    float:left;
+    margin-right:20px;
+}
+.schiri_timeline_block:first-child {
+    margin-left: 30px;
+}
+.schiri_timeline_block h4{
+	color:#2b3885;
+}
+.schiri_timeline_block p {
+    margin-top: 5px;
+    margin-bottom:5px;
+    padding: 0px;
+    color: #3f51b5;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Helvetica;
+}
+.schiri_timeline_block span{
+	color:#09adf8;
 }
