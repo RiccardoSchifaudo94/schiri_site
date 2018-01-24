@@ -7,6 +7,7 @@
     top: 0px;
     color: #000;
     display: none;
+    overflow-y:auto;
 }
 .schiri_modal_header {
     border-bottom: 2px solid #2b3885;
