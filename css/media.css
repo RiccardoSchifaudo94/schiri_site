@@ -18,6 +18,35 @@
 		max-height:670px;
 		padding:100px 20px;
 	}
+	.schiri_timeline{
+		min-height:1000px;
+		border-top:0px;
+		border-left:2px solid #2b3885;
+		max-width: 250px;
+    	margin: 0 auto;
+	}
+	.schiri_timeline_block:first-child{
+		margin-left:20px;
+	}
+	.schiri_timeline_block{
+		clear:both;
+		margin-top:20px;
+		margin-left:20px;
+		position:relative;
+		max-height: 150px;
+		padding-top:60px;
+	}
+	.schiri_circle_icon {
+	    background-color: #0983e4;
+	    width: 50px;
+	    height: 50px;
+	    border-radius: 50%;
+	    text-align: center;
+	    position: relative;
+	    top: 70px;
+	    left: -50px;
+	    position:absolute;
+	}
 	
 }
 @media screen and (max-width:768px){
@@ -31,6 +60,7 @@
 	.schiri_container{
 		max-width: 500px;
 	}
+
 	.schiri_dashboard_block_container{
 		display:inline-block;
 	}
