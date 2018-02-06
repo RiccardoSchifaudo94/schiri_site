@@ -48,7 +48,14 @@
 	    position:absolute;
 	}
 	.schiri_portfolio_blocco{
-		width:100%;
+		width:49%;
+		float:none;
+		margin:0 auto;
+		border:2px solid #0983e4;
+		border-bottom:0px;
+	}
+	.schiri_portfolio_blocco:last-child{
+		border-bottom:2px solid #0983e4;
 	}
 	
 }
@@ -83,6 +90,9 @@
 		width:50%;
 		display:block;
 		float:left;
+	}
+	.schiri_portfolio_blocco{
+		width:100%;
 	}
 }
 @media screen and (max-width:468px){
@@ -179,4 +189,5 @@
 		display:block;
 		width:100%;
 	}
+
 }
