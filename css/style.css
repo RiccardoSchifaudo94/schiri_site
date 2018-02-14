@@ -174,7 +174,7 @@ body {
 	color:#fff;
 	padding:30px 0px;
 	width:100%;
-	min-height:300px;
+	min-height: 500px;
 }
 .schiri_navigation{
 	float:right;
@@ -446,9 +446,17 @@ body {
 	display:block;
 	margin-left:20px;
 	margin-bottom:10px;
+	width:100%;
+}
+.schiri_footer input{
+	height:40px;
 }
 .schiri_footer input,
 .schiri_footer textarea{
-	background-color:#dedede;
-	border:1px solid #fff;
+	background-color: #6c6c6c;
+    border: 2px solid #535353;
+}
+.schiri_footer textarea{
+	padding-top:10px;
+	padding-left:20px;
 }
