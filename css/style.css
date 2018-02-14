@@ -89,6 +89,9 @@ body {
 	padding-top:30px;
 	margin-left:20px;
 }
+.schiri_brand img {
+    margin-left: -50px;
+}
 .schiri_menu{
 	float:right;
 }
