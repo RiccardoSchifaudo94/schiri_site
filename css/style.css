@@ -131,7 +131,6 @@ body {
     max-width: 45px;
     margin-right: 15px;
     float: left;
-    margin-top: -10px;
 }
 .schiri_content p{
 	padding:20px 0px 30px;
@@ -422,5 +421,34 @@ body {
 	border:none;
 }
 .schiri_footer p{
-	padding:20px 10px 0 0;
+	padding:20px 25px 0 0;
+}
+.schiri_footer h3, .schiri_footer ul {
+    margin-left: 20px;
+}
+.schiri_footer h3{
+	margin-top: 17px;
+    border-bottom: 1px solid #fff;
+    max-width: 200px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    font-family: "Lobster";
+    font-size: 24px;
+    color: #0983e4;
+}
+.schiri_footer a{
+	color:#fff;
+	padding-bottom:5px;
+}
+.schiri_footer label,
+.schiri_footer input,
+.schiri_footer textarea{
+	display:block;
+	margin-left:20px;
+	margin-bottom:10px;
+}
+.schiri_footer input,
+.schiri_footer textarea{
+	background-color:#dedede;
+	border:1px solid #fff;
 }
