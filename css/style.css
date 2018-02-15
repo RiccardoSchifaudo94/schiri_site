@@ -410,9 +410,10 @@ body {
 .schiri_footer_block_left, .schiri_footer_block_right, .schiri_footer_block_center {
     width: 33%;
     float: left;
-    height: 300px;
     background-color: #323334;
     border-left: 1px solid #6e6e6e;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 .schiri_footer_block_left a{
 	border-bottom:1px solid #fff;
@@ -454,9 +455,16 @@ body {
 .schiri_footer input,
 .schiri_footer textarea{
 	background-color: #6c6c6c;
-    border: 2px solid #535353;
+    border: 2px solid #4f4f4f;
 }
 .schiri_footer textarea{
 	padding-top:10px;
 	padding-left:20px;
+}
+.schiri_social_block{
+	background-color:#dedede;
+	height:40px;
+	width:100%;
+	border-top:1px solid #6e6e6e;
+	display:block;
 }
