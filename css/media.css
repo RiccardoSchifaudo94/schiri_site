@@ -11,6 +11,14 @@
 	}
 	.schiri_sub_header li img{
 		float:none;
+		transition:0.4s ease-in-out;
+	}
+	.schiri_sub_header li:hover{
+		border-bottom: 2px solid #fff!important;
+	}
+	.schiri_sub_header li:hover img{
+		padding-bottom:10px;
+		max-width:30px;
 	}
 
 }
