@@ -170,11 +170,12 @@ body {
     background-repeat: no-repeat;
 }
 .schiri_footer{
-	background-color: #323334;
-	color:#fff;
-	padding:30px 0px;
-	width:100%;
-	position: absolute;
+	background-color: #3e3e3e;
+    color: #fff;
+    padding: 30px 0px;
+    width: 100%;
+    min-height: 530px;
+    position: relative;
 }
 .schiri_navigation{
 	float:right;
@@ -410,7 +411,7 @@ body {
 .schiri_footer_block_left, .schiri_footer_block_right, .schiri_footer_block_center {
     width: 33%;
     float: left;
-    background-color: #323334;
+    background-color:#3e3e3e;
     border-left: 1px solid #6e6e6e;
     padding-top:20px;
     padding-bottom:20px;
@@ -483,12 +484,9 @@ body {
     font-size: 16px;
 }
 .schiri_sub_footer {
-    background-color: #3e3e3e;
+	background-color:#323334;
     min-height: 50px;
-    position: absolute;
     width: 100%;
-    bottom: -50px;
-    float: left;
     color: #fff;
 }
 .schiri_border_top_gray{
@@ -503,6 +501,6 @@ body {
     padding-bottom:10px;
 }
 .schiri_social_icon img {
-	max-width:40px;
+	max-width:30px;
 	margin-right:10px;
 }
