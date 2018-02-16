@@ -1,5 +1,18 @@
 @media screen and (min-width:992px){
-	
+	.schiri_sub_header li,
+	.schiri_sub_header li:hover,
+	.schiri_sub_header li:first-child{
+		width:80px;
+		border:none;
+		padding-left:20px;
+		padding-right:20px;
+		float:left;
+    	border-radius: 3px;
+	}
+	.schiri_sub_header li img{
+		float:none;
+	}
+
 }
 @media screen and (max-width:992px){
 	/* SITE  */ 

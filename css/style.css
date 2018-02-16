@@ -67,7 +67,7 @@ body {
 	transition:0.4s;
 }
 .schiri_sub_header li:hover {
-    background-color: #0969b5;
+    background-color:#0983e4;
     padding-left:60px;
 }
 .schiri_sub_header li img{
@@ -416,7 +416,7 @@ body {
     padding-bottom:20px;
 }
 .schiri_footer_block_left a{
-	border-bottom:1px solid #fff;
+	border-bottom:2px solid #09adf8;
 }
 .schiri_footer_block_left{
 	border:none;
@@ -429,7 +429,7 @@ body {
 }
 .schiri_footer h3{
 	margin-top: 17px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #09adf8;
     max-width: 200px;
     padding-bottom: 12px;
     margin-bottom: 20px;
@@ -455,11 +455,15 @@ body {
 .schiri_footer input,
 .schiri_footer textarea{
 	background-color: #6c6c6c;
-    border: 2px solid #4f4f4f;
+    border:2px solid #4f4f4f;
+    padding-left:10px;
+}
+.schiri_footer input:focus, .schiri_footer textarea:focus{
+	border:2px solid #0983e4;
 }
 .schiri_footer textarea{
 	padding-top:10px;
-	padding-left:20px;
+	padding-left:10px;
 }
 .schiri_social_block{
 	background-color:#dedede;
@@ -477,4 +481,28 @@ body {
     border: 2px solid #0983e4;
     border-radius: 2px;
     font-size: 16px;
+}
+.schiri_sub_footer {
+    background-color: #3e3e3e;
+    min-height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    float: left;
+    color: #fff;
+}
+.schiri_border_top_gray{
+    border-top:1px solid #6e6e6e;
+}
+.schiri_social_icon{
+	margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    width: 100%;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+.schiri_social_icon img {
+	max-width:40px;
+	margin-right:10px;
 }
