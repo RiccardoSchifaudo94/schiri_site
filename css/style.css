@@ -124,7 +124,7 @@ body {
 	margin-bottom: 30px;
 	font-size: 36px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid #fff;
+	border-bottom:2px dashed #fff;
 	max-width: 75%;
 	font-family: "Lobster";
 }
@@ -513,11 +513,12 @@ body {
     color: #fff;
 }
 .schiri_progress_container{
-	background-color:#fff;
-	height:40px;
-	width:220px;
-	margin-top:10px;
-	margin-bottom:20px;
+	background-color: #03A9F4;
+    height: 40px;
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 2px;
 }
 .schiri_block_skill_progress {
     width: 32%;
@@ -526,15 +527,20 @@ body {
     position: relative;
     margin-top: 20px;
 }
+.schiri_block_skill_progress strong {
+    border-bottom: 2px solid #3F51B5;
+    padding: 5px 0px;
+}
 .schiri_block_skill_progress img{
 	max-width:20px;
 	float:left;
 	margin-right:20px;
+	border-radius: 3px;
 }
 .schiri_progress_blue{
 	height:inherit;
 	width:20%;
-	background-color:#03a9f4;
+	background-color:#3F51B5;
 	transition:3s ease-in-out;
 	width:0%;
 }
@@ -542,7 +548,7 @@ body {
     padding-top: 8px;
     padding-left: 20px;
     font-weight: 700;
-    color:#2b3885;
+    color:#fff;
     font-size: 18px;
     display:none;
 }

@@ -3,8 +3,8 @@ $(document).ready(function(){
 		var height_scroll = $("body").scrollTop();
 		if(height_scroll>500){
 			$("#HTML").css({"width":"90%"});
-			$("#jQuery").css({"width":"50%"});
-			$("#PHP").css({"width":"30%"});
+			$("#jQuery").css({"width":"80%"});
+			$("#PHP").css({"width":"45%"});
 			$("#MySQL").css({"width":"10%"});
 			$("#Web_Design").css({"width":"70%"});
 			$("#Cordova").css({"width":"20%"});
