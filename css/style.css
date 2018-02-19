@@ -80,7 +80,8 @@ body {
 }
 .schiri_sub_header li a div{
 	margin-top:10px;
-	font-weight: 300;
+	font-weight: 600;
+    font-family: "Raleway";
 }
 .schiri_brand{
 	font-size:30px;
@@ -262,6 +263,10 @@ body {
 .schiri_skills{
 	background-color: #0983e4;
 	border-top: 2px solid #1264a5;
+	min-height: 500px;
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
 }
 .schiri_portfolio{
 	background-color: #09adf8;
@@ -489,9 +494,6 @@ body {
     width: 100%;
     color: #fff;
 }
-.schiri_border_top_gray{
-    border-top:1px solid #6e6e6e;
-}
 .schiri_social_icon{
 	margin: 0 auto;
     max-width: 300px;
@@ -503,4 +505,44 @@ body {
 .schiri_social_icon img {
 	max-width:30px;
 	margin-right:10px;
+}
+.schiri_sub_footer_2{
+	background-color:#272727;
+    min-height: 50px;
+    width: 100%;
+    color: #fff;
+}
+.schiri_progress_container{
+	background-color:#fff;
+	height:40px;
+	width:220px;
+	margin-top:10px;
+	margin-bottom:20px;
+}
+.schiri_block_skill_progress {
+    width: 32%;
+    float: left;
+    height: 100px;
+    position: relative;
+    margin-top: 20px;
+}
+.schiri_block_skill_progress img{
+	max-width:20px;
+	float:left;
+	margin-right:20px;
+}
+.schiri_progress_blue{
+	height:inherit;
+	width:20%;
+	background-color:#03a9f4;
+	transition:3s ease-in-out;
+	width:0%;
+}
+.schiri_progress_blue div {
+    padding-top: 8px;
+    padding-left: 20px;
+    font-weight: 700;
+    color:#2b3885;
+    font-size: 18px;
+    display:none;
 }
