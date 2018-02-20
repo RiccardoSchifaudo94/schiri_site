@@ -221,6 +221,7 @@ body {
     border: none;
     text-align: center;
     max-width: 880px;
+    padding-top: 30px;
 }
 .schiri_welcome_box h3{
 	margin-bottom:20px;
@@ -259,6 +260,23 @@ body {
 	padding:20px;
 	background-color: #2196F3;
 	border-top: 3px solid #0971c4;
+}
+.schiri_interests_icon_block {
+    width: 220px;
+    border-bottom: 2px solid #03a9f4;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.schiri_interests_icon_block img,
+.schiri_interests_icon_block strong {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+.schiri_box_section p {
+    text-align: justify;
+    padding: 20px 25px 0px;
 }
 .schiri_skills{
 	background-color: #0983e4;
@@ -310,6 +328,7 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 30px 20px;
     height: auto;
+    text-align:center;
 }
 .schiri_timeline {
     border-top: 2px solid #2b3885;
