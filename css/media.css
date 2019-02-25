@@ -235,7 +235,7 @@
 		width:100%;
 	}
 	.schiri_footer label, .schiri_footer input, .schiri_footer textarea{
-		max-width:260px;
+		max-width:260px!important;
 	}
 
 
