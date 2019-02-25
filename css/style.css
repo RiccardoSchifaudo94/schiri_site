@@ -39,7 +39,7 @@ body {
 	top: 0px;
 	border-bottom: 2px solid #2b3885;
 	/*box-shadow: 2px 2px 5px #c5c5c5; */
-	z-index:1;
+	z-index:999999999;
 }
 .schiri_sub_header{
 	background-color: #03A9F4;
@@ -558,6 +558,12 @@ body {
 	color:#fff;
 	text-decoration:none;
 	margin-right:10px;
+}
+.schiri_social_icon a span {
+    border-bottom: 1px solid #0983e4;
+    padding: 0 5px 2px;
+    position: relative;
+    top: -4px;
 }
 .schiri_sub_footer_2{
 	background-color:#272727;
