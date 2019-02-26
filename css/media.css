@@ -240,6 +240,15 @@
 	.schiri_social_icon a{
 		display:block;
 		width:100%;
+		margin-bottom:5px;
+	}
+	.schiri_social_icon a span{
+		position: relative;
+    	top: -15px;
+	}
+	.schiri_social_icon img{
+    	display: block;
+    	left: 20px;
 	}
 
 
