@@ -174,9 +174,11 @@
 				<hr class="schiri_line_white">
 				<div class="schiri_dashboard_block_container">
 					<div class="schiri_dashboard_base schiri_dashboard_block_2">
-						<img src="img/coding.png" class="schiri_img_responsive">	
-						<h3>Coding</h3>
-						<button class="schiri_btn schiri_btn_reverse">Scopri</button>
+						<img src="img/diabolo.png" class="schiri_img_responsive" style="max-width:64px;">	
+						<h3>Diabolo</h3>
+						<a href="<?php echo Utility::get_base_url().'/../diabolo.php'; ?>">
+							<button class="schiri_btn schiri_btn_reverse">Scopri</button>
+						</a>
 					</div>
 					<div class="schiri_dashboard_base schiri_dashboard_block_2 schiri_dashboard_base_no_border">
 						<img src="img/libri.png" class="schiri_img_responsive">	
