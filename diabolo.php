@@ -1,9 +1,9 @@
 <?php include("include/components/header.php");	?>
 		<div class="schiri_content schiri_bkg_4">
 			<div class="schiri_container">
-				<video autoplay muted loop id="myVideo" style="">
+				<!--<video autoplay muted loop id="myVideo" style="">
 				  <source src="img/diabolo/diabolo_trick.mp4" type="video/mp4">
-				</video>	
+				</video>-->
 				<div class="schiri_box_section">
 					<img src="img/diabolo.png" style="max-width:64px;">
 					<h2 class="schiri_title_section_site_h2">Diabolo</h2>
@@ -18,7 +18,6 @@
 			</div>
 		</div>
 		<div class="schiri_container">
-			
 		</div>
 		<a name="diabolo-gallery"></a>
 		<div class="schiri_content">

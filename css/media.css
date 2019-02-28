@@ -14,10 +14,10 @@
 		transition:0.4s ease-in-out;
 	}
 	.schiri_sub_header li:hover{
-		border-bottom: 2px solid #fff!important;
+		/*border-bottom: 2px solid #fff!important;*/
 	}
 	.schiri_sub_header li:hover img{
-		padding-bottom:10px;
+		/*padding-bottom:10px;*/
 		max-width:30px;
 	}
 
@@ -137,17 +137,24 @@
 	.schiri_portfolio_blocco{
 		width:100%;
 	}
-	
 
+	.schiri_bkg_1,
+	.schiri_bkg_3,
+	.schiri_bkg_4{
+		margin-top:80px;
+	/*	height: calc(120vw - 100px); */
+	}
+	.schiri_bkg_3, .schiri_bkg_4{
+		max-height:unset;
+		padding: 50px 20px;
+		height:unset;
+	}
+	
 }
 @media screen and (max-width:468px){
 	/* SITE  */ 
 	.schiri_header{
 		min-height:80px;
-	}
-	.schiri_bkg_1{
-		margin-top:80px;
-		height: calc(120vw - 100px);
 	}
 	.schiri_sub_header{
 		top:80px;
@@ -168,7 +175,7 @@
 	    font-family: Arial;
 	    padding: 10px 0px 20px;
 	    border-radius: 3px;
-	    background-color: rgba(0, 0, 0, 0.7);
+	  /*  background-color: rgba(0, 0, 0, 0.7); */
 	}
 	.schiri_welcome_box h1{
 		max-width:300px;
@@ -195,7 +202,7 @@
 	    margin-top: 0px;
 	}
 	.schiri_content p{
-		font-size:16px;
+		font-size:14px;
 	}
 	.schiri_container{
 		max-width: 300px;

@@ -43,9 +43,36 @@
 						<li><a href="#contact"><img src="img/home.png"><div id="contacts">Contatti</div></a></li>
 					</ul>
 					<?php endif;?>
-					<?php if(basename($_SERVER['PHP_SELF'])=="viaggi.php"): ?>
+					<?php if(basename($_SERVER['PHP_SELF'])!="index.php"): ?>
 					<ul>
-						<li><a href="index.php"><img src="img/home.png"><div id="home">Home</div></a></li>
+						<li>
+							<a href="index.php">
+								<img src="img/home.png"><div id="home">Home</div>
+							</a>
+						</li>
+						<li>
+							<a href="viaggi.php">
+								<img src="img/world.png"><div>Viaggi</div>
+							</a>
+							<ul class="schiri_second_sub_header">
+		 						<div class="schiri_container">     
+		 							<li><a>Malta</a></li>
+		        					<li><a>Interrail</a></li>
+		        					<li><a>Erasmus Plus</a></li>
+		     						<li><a>Fuori Porta</a></li>
+		     					</div>	
+		    				</ul>
+						</li>
+						<li>
+							<a href="diabolo.php">
+								<img src="img/diabolo.png"><div>Diabolo</div>
+							</a>
+						</li>
+						<li>
+							<a href="ninjutsu.php">
+								<img src="img/ninja.png"><div id="home">Ninjutsu</div>
+							</a>
+						</li>
 					</ul>
 					<?php endif;?>
 				</div>

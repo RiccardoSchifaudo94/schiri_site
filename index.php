@@ -168,7 +168,9 @@
 					<div class="schiri_dashboard_base schiri_dashboard_block_2 schiri_dashboard_base_no_border">
 						<img src="img/ninja.png" class="schiri_img_responsive">	
 						<h3>Ninjutsu</h3>
-						<button class="schiri_btn schiri_btn_reverse">Scopri</button>
+						<a href="<?php echo Utility::get_base_url().'/../ninjutsu.php'; ?>">
+							<button class="schiri_btn schiri_btn_reverse">Scopri</button>
+						</a>	
 					</div>
 				</div>	
 				<hr class="schiri_line_white">
