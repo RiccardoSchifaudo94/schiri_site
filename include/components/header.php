@@ -6,6 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/modal.css">
+		<?php if(basename($_SERVER['PHP_SELF']!="index.php")): ?>
+			<link rel="stylesheet" type="text/css" href="css/post.css">
+		<?php endif;?>
 		<link rel="stylesheet" type="text/css" href="css/media.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -15,7 +18,7 @@
 		<div class="schiri_modal">
 			<div class="schiri_container">
 				<div class="schiri_modal_header">
-					<h1>Schifaudo Riccardo CV</h1>
+					<h1></h1>
 					<div class="schiri_btn_modal_close">
 						<img src="img/chiudi.png">
 					</div>
@@ -72,6 +75,13 @@
 							<a href="ninjutsu.php">
 								<img src="img/ninja.png"><div id="home">Ninjutsu</div>
 							</a>
+							<ul class="schiri_second_sub_header">
+		 						<div class="schiri_container">  
+		 							<li><a>Storia</a></li>   
+		 							<li><a>Taijutsu</a></li>
+		        					<li><a>Kujikiri</a></li>
+		     					</div>	
+		    				</ul>
 						</li>
 					</ul>
 					<?php endif;?>

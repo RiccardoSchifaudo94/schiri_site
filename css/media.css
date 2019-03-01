@@ -149,6 +149,20 @@
 		padding: 50px 20px;
 		height:unset;
 	}
+	.schiri_post .schiri_post_left,
+	.schiri_post .schiri_post_right{
+		width:100%;
+	}
+
+	.schiri_post p{
+		padding:10px 0;
+	}
+	.schiri_post button{
+		margin-left:0;
+	}
+	.schiri_post .schiri_post_right{
+		border-bottom:2px solid #0983e4;
+	}
 	
 }
 @media screen and (max-width:468px){

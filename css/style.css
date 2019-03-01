@@ -23,7 +23,8 @@
 	overflow-y:hidden;
 }
 body {
-    background-color: #dedede;
+   /* background-color: #dedede; */
+   background-color:#2196F3;
 }
 .schiri_container{
 	max-width:960px;

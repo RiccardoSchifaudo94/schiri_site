@@ -1,5 +1,10 @@
-$(".schiri_btn_modal_cv").click(function(){
+$(".schiri_btn_modal").click(function(){
 	$("body").addClass("disable_overflow");
+	var tipo_pagina = $(this).find("input").val();
+	$(".schiri_modal_header h1").text("");
+	$(".schiri_modal_body").html("");
+	$(".schiri_modal_body").load("include/modal_pages/"+tipo_pagina+".html");
+	$(".schiri_modal_header h1").html($(".schiri_modal_body h1").html());
 	$(".schiri_modal").fadeIn();
 });
 $(".schiri_btn_modal_close").click(function(){

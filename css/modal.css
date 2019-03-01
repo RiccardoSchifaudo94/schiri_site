@@ -3,7 +3,7 @@
     width: 100%;
     background-color:rgba(255,255,255,0.9);
     position: fixed;
-    z-index: 99999999;
+    z-index: 9999999999;
     top: 0px;
     color: #000;
     display: none;
@@ -21,12 +21,26 @@
 	font-weight:300;
 	font-family:Helvetica;
 }
+.schiri_modal_body h1{
+    display:none;
+}
+.schiri_modal_body h2{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.schiri_modal_body img{
+    text-align:center;
+    margin:10px auto;
+    max-width:500px;
+    width:100%;
+    height:auto;
+}
 .schiri_modal_header h1 {
     font-weight: 300;
     font-family: Helvetica;
     padding: 29px 20px 0px;
     float:left;
-    font-family: "Lobster";
+    font-family: "Raleway";
 }
 .schiri_btn_modal_close {
     float: right;
