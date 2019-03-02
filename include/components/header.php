@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="css/modal.css">
 		<?php if(basename($_SERVER['PHP_SELF']!="index.php")): ?>
 			<link rel="stylesheet" type="text/css" href="css/post.css">
+			<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+			<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 		<?php endif;?>
 		<link rel="stylesheet" type="text/css" href="css/media.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
