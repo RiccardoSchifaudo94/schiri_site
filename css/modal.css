@@ -22,11 +22,13 @@
 	font-family:Helvetica;
 }
 .schiri_modal_body h1{
-    display:none;
+    opacity:0;
 }
 .schiri_modal_body h2{
     margin-top:10px;
-    margin-bottom:5px;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-bottom:2px solid #03a9f4;
 }
 .schiri_modal_body img{
     text-align:center;
@@ -34,6 +36,12 @@
     max-width:500px;
     width:100%;
     height:auto;
+}
+.schiri_modal_body p {
+    line-height: 150%;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Raleway",sans-serif;
 }
 .schiri_modal_header h1 {
     font-weight: 300;

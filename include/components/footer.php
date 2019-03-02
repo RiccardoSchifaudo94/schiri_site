@@ -1,5 +1,5 @@
 <a name="contact"></a>
-		<?php if(basename($_SERVER['PHP_SELF'] == "index.php")): ?>
+		<?php if(basename($_SERVER['PHP_SELF']) == "index.php"): ?>
 		<div class="schiri_footer">
 			<div class="schiri_container">
 				<div class="schiri_footer_block_left">
@@ -68,6 +68,14 @@
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/modal.js"></script>
 	<script type="text/javascript" src="js/progress.js"></script>
+	
+	<?php if(basename($_SERVER['PHP_SELF'])=="viaggi.php"): ?>
+		
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+		<script type="text/javascript" src="js/plugin.js"></script>	
+	
+	<?php endif; ?>	
+	
 	<script type="text/javascript">
 	
 	</script>

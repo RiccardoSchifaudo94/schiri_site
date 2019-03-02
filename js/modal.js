@@ -4,7 +4,8 @@ $(".schiri_btn_modal").click(function(){
 	$(".schiri_modal_header h1").text("");
 	$(".schiri_modal_body").html("");
 	$(".schiri_modal_body").load("include/modal_pages/"+tipo_pagina+".html");
-	$(".schiri_modal_header h1").html($(".schiri_modal_body h1").html());
+	var title_article = $(".schiri_modal_body h1").html();
+	$(".schiri_modal_header h1").text(title_article);
 	$(".schiri_modal").fadeIn();
 });
 $(".schiri_btn_modal_close").click(function(){

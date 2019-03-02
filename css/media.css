@@ -91,7 +91,7 @@
 		border-bottom:1px solid #6e6e6e;
 	}
 	.schiri_footer_block_left{
-		padding-left:25px;
+		/*padding-left:25px;*/
 	}
 	.schiri_block_skill_progress{
 		float:none;
@@ -163,7 +163,9 @@
 	.schiri_post .schiri_post_right{
 		border-bottom:2px solid #0983e4;
 	}
-	
+	.schiri_second_sub_header{
+		display:none;
+	}
 }
 @media screen and (max-width:468px){
 	/* SITE  */ 
@@ -258,6 +260,9 @@
 	.schiri_footer label, .schiri_footer input, .schiri_footer textarea{
 		max-width:260px!important;
 	}
+	.schiri_footer p {
+ 	   padding: 20px 20px 0 15px;
+	}
 	.schiri_social_icon a{
 		display:block;
 		width:100%;
@@ -271,6 +276,10 @@
     	display: block;
     	left: 20px;
 	}
-
-
+	.schiri_footer_block_left img {
+    	margin-left: -30px;
+    }
+    .schiri_footer_block_left a{
+    	margin-left:15px;
+    }
 }
