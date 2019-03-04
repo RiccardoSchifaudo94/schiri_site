@@ -17,6 +17,7 @@
 
 	</head>
 	<body>
+		<a name="top"></a>
 		<div class="schiri_modal">
 			<div class="schiri_container">
 				<div class="schiri_modal_header">

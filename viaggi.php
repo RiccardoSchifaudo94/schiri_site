@@ -28,7 +28,7 @@
 							</p>
 							<p>
 								Questi progetti in genere coprendono un corso di lingua del paese ospitante con un esperienza di stage
-								o tirocinio in un azienda in loco, coprono i costi di vitto e alloggio o in parte o totalmente e gli 
+								o tirocinio in un azienda in loco, coprono i costi di vitto e alloggio in parte o totalmente e gli 
 								abbonomenti per gli spostamenti interni con viaggio di andate e ritorno in aereo.
 							</p>
 							<p>

@@ -62,7 +62,8 @@
 					<a href="#"><img src="img/linkedin.png"></a>
 				</div>-->
 			</div>
-		</div>		
+		</div>	
+		<a href="#top"><div class="schiri_btn_return_back"><img src="img/next.png"></div></a>
 	</body>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>

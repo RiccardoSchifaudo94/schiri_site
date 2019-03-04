@@ -43,7 +43,7 @@ body {
 	top: 0px;
 	border-bottom: 2px solid #2b3885;
 	/*box-shadow: 2px 2px 5px #c5c5c5; */
-	z-index:999999999;
+	z-index:999999;
 }
 .schiri_sub_header{
 	background-color: #03A9F4;
@@ -139,7 +139,7 @@ ul.schiri_second_sub_header {
 	margin-bottom: 30px;
 	font-size: 36px;
 	padding-bottom: 20px;
-	border-bottom:2px dashed #fff;
+	/*border-bottom:2px dashed #fff;*/
 	max-width: 75%;
 	font-family: "Lobster";
 }
@@ -263,7 +263,7 @@ ul.schiri_second_sub_header {
 	border-top:1px solid #fff;
 }
 .schiri_welcome_box {
-    z-index: 999999;
+    z-index: 99;
     text-align: center;
     font-family: Arial;
     /* background-color: rgba(0, 0, 0, 0.7); */
@@ -645,4 +645,24 @@ ul.schiri_second_sub_header {
     color:#fff;
     font-size: 18px;
     display:none;
+}
+.schiri_btn_return_back {
+    background-color: #3f51b5;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    border: 2px solid #2b3885;
+    border-radius: 4px;
+    z-index: 2000;
+    display:none;
+}
+
+
+.schiri_btn_return_back img {
+    max-width: 30px;
+    transform: rotate(-90deg);
+    margin-left: 11px;
+    margin-top: 9px;
 }

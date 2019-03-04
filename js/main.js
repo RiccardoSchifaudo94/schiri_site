@@ -15,4 +15,21 @@ $(document).ready(function(){
 		return false;
 	});
 
+	$(window).scroll(function(){
+
+		var height_page = $("body").scrollTop();
+		
+		if(height_page>500)
+			$(".schiri_btn_return_back").show();
+		else
+			$(".schiri_btn_return_back").hide();
+
+		clearTimeout($.data(this, 'scrollTimer'));
+		$.data(this, 'scrollTimer', setTimeout(function() {
+			// do something
+			$(".schiri_btn_return_back").fadeOut(500);
+		}, 1500));
+
+	});
+
 });
