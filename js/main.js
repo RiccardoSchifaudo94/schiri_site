@@ -32,4 +32,7 @@ $(document).ready(function(){
 
 	});
 
+	$(".schiri_loader").fadeOut(1000);
+	$("body").removeClass("disable_overflow");
+
 });

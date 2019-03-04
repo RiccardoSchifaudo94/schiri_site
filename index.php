@@ -137,7 +137,7 @@
 						Dopo vari tirocini e esperienze on the job ho cominciato a lavorare nel settore IT sia in Italia che all'estero, da prima come sviluppatore in Web Agency, per poi passare al lavoro in Software House e lavorando per un breve periodo come consulente in multinazionale.
 					</p>
 					<!--<button class="schiri_btn schiri_btn_modal_cv">Scopri CV</button>-->
-					<a href="doc/CV_Schifaudo_ITA_Ridotto.pdf" target="_blank">
+					<a href="doc/CV-Europass-Schifaudo-IT.pdf" target="_blank">
 						<button class="schiri_btn">
 							Download CV ITA
 						</button>	

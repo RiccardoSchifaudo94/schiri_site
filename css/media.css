@@ -183,7 +183,8 @@
 		padding-top:20px;
 	}
 	.schiri_menu img{
-		margin-top:10px;
+		margin-top:20px;
+		max-width:20px;
 	}
 	.schiri_sub_header li{
 		padding-top:10px;

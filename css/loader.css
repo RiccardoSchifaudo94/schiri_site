@@ -1,0 +1,44 @@
+.schiri_loader {
+    background: #2b3885;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 99999999;
+}
+.schiri_loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 270px;
+    transform: translate(-50%,-50%);
+}
+.schiri_loader .spinner {
+    border: 5px solid #2b3885;
+    border-radius: 50%;
+    border-top: 5px solid #03a9f4;
+    border-bottom: 4px solid rgb(240, 223, 51);
+    width: 120PX;
+    height: 120PX;
+    animation: spin 1s linear infinite;
+    position: fixed;
+    top: 55%;
+    left: 45%;
+    transform: translate(-55%,-45%);
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+@media screen and (max-width:468px){
+    .schiri_loader .spinner{
+        top: 60%;
+        left: 35%;
+        transform: translate(-60%,-35%);
+    }
+}

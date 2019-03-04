@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/modal.css">
+		<link rel="stylesheet" type="text/css" href="css/loader.css">
 		<?php if(basename($_SERVER['PHP_SELF']!="index.php")): ?>
 			<link rel="stylesheet" type="text/css" href="css/post.css">
 			<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
@@ -16,8 +17,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 	</head>
-	<body>
+	<body class="disable_overflow">
+		<!-- LAYER LOADER -->
 		<a name="top"></a>
+		<div class="schiri_loader">
+			<img src="img/logo_schiri_white.png">
+			<div class="spinner"></div>
+		</div>
+		<!-- FINESTRA MODALE -->
 		<div class="schiri_modal">
 			<div class="schiri_container">
 				<div class="schiri_modal_header">
