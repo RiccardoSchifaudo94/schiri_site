@@ -69,8 +69,9 @@
     user-select: none;
 }
 .owl-carousel.owl-loaded {
-    margin-top:100px;
+    margin-top: 20px;
     display: block;
+    margin-bottom: 30px;
 }
 .owl-carousel.owl-loading {
     opacity: 0;
@@ -106,15 +107,17 @@
 .owl-item p{
     font-size:18px;
     font-weight:400;
-    font-family:'Arial';
+    font-family:'Raleway';
     text-align:center;
     margin:10px auto;
     max-width:200px;
     width:100%;
+    padding:0;
 }
 .owl-item span{
     font-size:14px;
-    font-family:'Arial';
+    font-family:'Raleway';
+    text-align:center;
 }
 
 .owl-carousel.owl-text-select-on .owl-item {
@@ -341,6 +344,9 @@
 }
 @media screen and (max-width:480px) {
     .owl-next, .owl-prev {
-    top: -140px;
-}
+        top: -210px;
+    }
+    .main_container{
+        max-width:260px;
+    }
 }

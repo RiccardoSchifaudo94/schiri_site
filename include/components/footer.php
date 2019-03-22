@@ -70,7 +70,7 @@
 	<script type="text/javascript" src="js/modal.js"></script>
 	<script type="text/javascript" src="js/progress.js"></script>
 	
-	<?php if(basename($_SERVER['PHP_SELF'])=="viaggi.php"): ?>
+	<?php if(basename($_SERVER['PHP_SELF'])=="viaggi.php" OR basename($_SERVER['PHP_SELF'])=="diabolo.php"): ?>
 		
 		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 		<script type="text/javascript" src="js/plugin.js"></script>	
@@ -80,4 +80,14 @@
 	<script type="text/javascript">
 	
 	</script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		     var slider = new Slider();
+            //CREO DUE SLIDER CON SCOPE TAG HTML SU CUI GENERARLO E STRUTTURA DATI DEFINITA IN PLUGIN.JS
+            slider.create($(".diabolo_tutorial_gallery"), diabolo_tutorial_gallery);
+            slider.create($(".prova2"),array_items);
+            //INIZIALIZZO LE GLI STLIDERE CHE HO DEFINITO
+            slider.init(); 
+	});
+</script>	
 </html>

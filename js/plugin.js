@@ -7,6 +7,14 @@ var array_items = [
 	{"title":"Titolo 4", "descr":"Lorem Ipsum is simply dummy text of the printing and typesetting ", "type":"", "url":"http://d5qsyj6vaeh11.cloudfront.net/images/homepage/featured-module-hp/ioi/it-ioi/faro-590x340-636299245573601856.jpg"}
 ]
 
+var diabolo_tutorial_gallery = [
+	{"title":"Diabolo Tricks by Artem Kalashnikov", "descr":"Performace of Ukranian's Juggler with advanced trick", "type":"video", "url":"https://www.youtube.com/embed/20LQuRCEJmU"},
+	{"title":"Tricks Special Edition by Artem Kalashnikov", "descr":"Performace of Ukranian's Juggler with collection of all tricks", "type":"video", "url":"https://www.youtube.com/embed/NrnltewlNxw"},
+	{"title":"Introduzione al Diabolo", "descr":"Introduzione al Diabolo di Lucas, diablista brasiliano", "type":"video", "url":"https://www.youtube.com/embed/1-zRnO3jFe8"},
+	{"title":"Diabolo Tricks by Artem Kalashnikov", "descr":"Performace of Ukranian's Juggler with advanced trick", "type":"video", "url":"https://www.youtube.com/embed/20LQuRCEJmU"}	
+];
+
+
 function Slider(){
    
 	this.init = function(){
@@ -88,6 +96,7 @@ function Slider(){
 
 
 		    parent.append(html_template);
+		    
 
 		    $(".item img").click(function(){
 	   						 $(".lightbox").fadeIn(500);

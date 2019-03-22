@@ -192,7 +192,7 @@ ul.schiri_second_sub_header {
 	
 }
 .schiri_bkg_4{
-		background-image:url("../img/diabolo/diabolo_in_action.jpg");
+	/*background-image:url("../img/diabolo/diabolo_in_action.jpg");*/
 }
 .schiri_bkg_5{
 	background-image:url("../img/ninjutsu/manichini_legati.jpg");
@@ -214,12 +214,21 @@ ul.schiri_second_sub_header {
 .schiri_bkg_5{
 	min-height:500px;
 }
+.schiri_bkg_4 .schiri_container{
+    height:100%;
+}
+.schiri_bkg_4 .schiri_box_section{
+    top:15%;
+}
 .schiri_bkg_4 video {
     position: absolute;
     top: 0;
     left: 0;
-    z-index:-2;
-    max-width:100%;
+    z-index: -2;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
 }
 
 .schiri_footer{
@@ -665,4 +674,10 @@ ul.schiri_second_sub_header {
     transform: rotate(-90deg);
     margin-left: 11px;
     margin-top: 9px;
+}
+.schiri_ul_list li{
+    display:inline-block;
+    width:100%;
+    min-height:30px;
+    padding-left:20px;
 }
