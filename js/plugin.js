@@ -8,11 +8,20 @@ var array_items = [
 ]
 
 var diabolo_tutorial_gallery = [
-	{"title":"Diabolo Tricks by Artem Kalashnikov", "descr":"Performace of Ukranian's Juggler with advanced trick", "type":"video", "url":"https://www.youtube.com/embed/20LQuRCEJmU"},
-	{"title":"Tricks Special Edition by Artem Kalashnikov", "descr":"Performace of Ukranian's Juggler with collection of all tricks", "type":"video", "url":"https://www.youtube.com/embed/NrnltewlNxw"},
-	{"title":"Introduzione al Diabolo", "descr":"Introduzione al Diabolo di Lucas, diablista brasiliano", "type":"video", "url":"https://www.youtube.com/embed/1-zRnO3jFe8"},
-	{"title":"Diabolo Tricks by Artem Kalashnikov", "descr":"Performace of Ukranian's Juggler with advanced trick", "type":"video", "url":"https://www.youtube.com/embed/20LQuRCEJmU"}	
+	{"title":"Lancio Diabolo", "descr":"Caricamento e scarica in aria del Diabolo. Tecnica di base di lancio, con recupero a 'Parafulmine' e conclusione con 'Colpo di Frusta'", "type":"video", "url":"https://scontent.cdninstagram.com/vp/3cbd4f9754b3be3ee415441ab8b8c1e3/5C9C98EB/t50.2886-16/54530062_2211218978935031_3197985511335526400_n.mp4?_nc_ht=scontent.cdninstagram.com"},
+	{"title":"Eclissi Totale", "descr":"Trucco Diabolo che consiste in un circolare eseguito dietro la schiena. Fa parte delle techiche delle orbite.", "type":"video", "url":"https://scontent.cdninstagram.com/vp/b0ecd108d9b951c31892367c8b1fe84c/5C9C6305/t50.2886-16/55409026_436651017076799_1869445703471659209_n.mp4?_nc_ht=scontent.cdninstagram.com"},
+	{"title":"Semi-circolari alternati", "descr":"Orbite semi-circolari alternate con ritorno in circolare di schiena e presa di polso.", "type":"video", "url":"https://scontent.cdninstagram.com/vp/dad1f9c90b04d6c8a7906c47f993d2f7/5C9C5BA5/t50.2886-16/55522939_649842625455423_8436571793875009536_n.mp4?_nc_ht=scontent.cdninstagram.com"},
+	{"title":"Diabolo combo tricks", "descr":"Coreografia improvvisata con trucchi misti di trapezi, punto cieco con orbite di braccia e gambe.", "type":"video", "url":"https://scontent.cdninstagram.com/vp/e145aa0baea2921b460e6ae7a64260f5/5C9C2841/t50.2886-16/44361127_2014098961984264_5716345224637186048_n.mp4?_nc_ht=scontent.cdninstagram.com&autoplay=false"}		
 ];
+
+var malta_gallery = [	
+						{"title":"Valletta", "descr":"Capitale dell'arcipelago di Malta ", "type":"image", "url":"img/viaggi/tirocinio_malta/valletta.jpg"},
+						{"title":"Popeye Village", "descr":"Parco tematico dedicato al film di Braccio di Ferro e set cinematografico dell'omonimo film", "type":"image", "url":"img/viaggi/tirocinio_malta/popeye_village.jpg"},
+						{"title":"Vittoriosa", "descr":"Cittadina fortificata a est della Valletta", "type":"image", "url":"img/viaggi/tirocinio_malta/vittoriosa.jpg"},
+						{"title":"Icon LTD", "descr":"Foto di gruppo aziendale nella compagnia IT in cui ho lavorato come web developer.", "type":"image", "url":"img/viaggi/tirocinio_malta/icon_company.jpg"},
+						{"title":"Manuel Fort", "descr":"Vista di La Valletta dal forte di St. Manuel a Gzira", "type":"image", "url":"img/viaggi/tirocinio_malta/st_manuel_fort.jpg"},
+						{"title":"Cabina Rossa", "descr":"Cambina rossa stile anglosassone a Valletta", "type":"image", "url":"img/viaggi/tirocinio_malta/phone_box.jpg"}
+					];
 
 
 function Slider(){
@@ -61,7 +70,7 @@ function Slider(){
 	            }
 	        },
 	        navigation:true,
-	        navText: ["<img src='img/arrow-prev.png'>","<img src='img/arrow-next.png'>"]
+	        navText: ["<img src='img/arrow-next-w.png' style='transform:rotate(180deg);'>","<img src='img/arrow-next-w.png'>"]
 	    })
 
 	}
@@ -78,7 +87,7 @@ function Slider(){
 						html_template += "<span>"+array_items[i].descr+"</span>";
 					}else if(array_items[i].type=="video"){
 						html_template += "<div class='overlay_video' onclick='this.openVideo();'></div>";
-						html_template += "<iframe width='420' height='240' allowfullscreen='true' frameborder='0' src='"+array_items[i].url+"'></iframe>";
+						html_template += "<iframe width='420' height='240' allowfullscreen='true' frameborder='0' src='"+array_items[i].url+"' autoplay='0' controls autoStart=false></iframe>";
 						html_template += "<p>"+array_items[i].title+"</p>";
 						html_template += "<span>"+array_items[i].descr+"</span>";
 					}

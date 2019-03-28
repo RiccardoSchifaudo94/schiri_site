@@ -13,8 +13,8 @@
 			<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 		<?php endif;?>
 		<link rel="stylesheet" type="text/css" href="css/media.css">
-		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<!--<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">-->
+		<!--<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">-->
 
 	</head>
 	<body class="disable_overflow">

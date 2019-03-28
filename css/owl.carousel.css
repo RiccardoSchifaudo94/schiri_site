@@ -102,7 +102,7 @@
     -webkit-transform-style: preserve-3d;
     max-width:320px;
     max-height:150px;
-    background-size:cover;
+    object-fit:cover;
 }
 .owl-item p{
     font-size:18px;
@@ -318,6 +318,10 @@
     top:-210px;
     position: relative;
     height: 20px;
+}
+.owl-next img,
+.owl-prev img {
+    max-width: 40px;
 }
 .owl-next {
     float: right;

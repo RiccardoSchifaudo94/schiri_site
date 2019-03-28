@@ -17,7 +17,7 @@
 				<a name="trips-gallery"></a>
 				<div class="schiri_content">
 					<div class="schiri_post">
-						<h2>Tirocino VET - Malta</h2>
+						<h1>Tirocino VET - Malta</h1>
 						<div class="schiri_post_left">
 							<img src="img/viaggi/tirocinio_malta/valletta.jpg" class="schiri_img_responsive">
 						</div>
@@ -42,7 +42,7 @@
 						</div>
 					</div><!-- chiudi primo post -->
 					<div class="schiri_post">
-						<h2>Interrail</h2>
+						<h1>Interrail</h1>
 						<div class="schiri_post_left">
 							<img src="img/viaggi/interrail/interrail_pass.jpg" class="schiri_img_responsive">
 						</div>

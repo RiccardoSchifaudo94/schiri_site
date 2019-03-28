@@ -19,6 +19,15 @@
   background:rgba(43, 56, 133,1);
   width:5px;
 }
+@font-face {
+    font-family:"Raleway";
+    src:url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"),
+        url("../fonts/Raleway/Raleway-Bold.ttf") format("truetype");/* TTF file for CSS3 browsers */
+}
+@font-face {
+    font-family:"Lobster";
+    src:url("../fonts/Lobster/Lobster-Regular.ttf") format("truetype");/* TTF file for CSS3 browsers */
+}
 .disable_overflow{
 	overflow-y:hidden;
 }
@@ -135,7 +144,7 @@ ul.schiri_second_sub_header {
 	font-weight: 300;
 }
 .schiri_content h1{
-	padding-top:100px;
+	padding-top:30px;
 	margin-bottom: 30px;
 	font-size: 36px;
 	padding-bottom: 20px;
